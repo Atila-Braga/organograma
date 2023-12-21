@@ -1,0 +1,15 @@
+.formulario form {
+    width: 77.84vw;
+    margin: 80px auto 40px;
+    padding: 33px 6.6%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #F6F6F6;
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+}
+.formulario form h1 {
+    font-family: 'Prata', sans-serif;
+    font-size: 32px;
+    margin-bottom: 44px;
+    color: #212121; 
+}

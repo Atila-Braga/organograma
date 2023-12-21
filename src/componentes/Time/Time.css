@@ -1,0 +1,17 @@
+.times {
+    background-color: #D9F7E9;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.times h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Prata', sans-serif;
+    font-size: 32px;
+    color: #212121; 
+}

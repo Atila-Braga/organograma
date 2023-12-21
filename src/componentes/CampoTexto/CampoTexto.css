@@ -1,0 +1,21 @@
+.campo-texto label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600; 
+    color: #212121;
+    margin-bottom: 8px;
+}
+.campo-texto input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 21px;
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 29px;
+    border: none;
+    font-size: 16px;
+}
+.campo-texto input::placeholder {
+    font-size: 16px;
+    color: #A4A4A4; 
+}
