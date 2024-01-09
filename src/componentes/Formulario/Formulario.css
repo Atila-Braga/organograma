@@ -13,3 +13,9 @@
     margin-bottom: 44px;
     color: #212121;
 }
+.formulario form:last-of-type input[type="color"] {
+    height: 64px;
+    width: 100%;
+    margin-bottom: 29px;
+    padding: 0;
+}

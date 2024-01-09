@@ -1,8 +1,15 @@
 import "./Colaborador.css";
 
-export const Colaborador = ({nome, cargo, imagem, cor}) => {
+export const Colaborador = ({colaborador, nome, cargo, imagem, cor, aoDeletar, aoFavoritar}) => {
+    const favoritar = () => {
+        aoFavoritar(colaborador.id)
+    }
+
     return (
         <div className="colaborador" style={{background: `linear-gradient(to top, white 180px, ${cor} 92px)`}}>
+            <div className="deletar" onClick={() => aoDeletar(colaborador.id)}>
+                x
+            </div>
             <div className="img-container">
                 <img src={imagem} alt="" />
             </div>
@@ -16,6 +23,12 @@ export const Colaborador = ({nome, cargo, imagem, cor}) => {
             <h5>
                 {cargo}
             </h5>
+            <div className="favoritar">
+                {colaborador.favorito ? 
+                <div className="favorito" onClick={favoritar}>L</div> 
+                :
+                <div className="naoFavorito" onClick={favoritar}>L</div>}
+            </div>
         </div>
     );
 }
